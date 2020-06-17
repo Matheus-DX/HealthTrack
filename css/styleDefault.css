@@ -1,0 +1,103 @@
+
+h1.center{
+	font-weight: 400;
+	text-align: center;
+}
+h2.center{
+	font-weight: 400;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+h2.font{
+	font-size: 2.0rem;
+	font-weight: 400;
+}
+h3{
+	font-weight: 400;
+}
+
+.font20{
+	font-size: 20px;
+}
+p{
+
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+
+.left
+{
+	text-align: left;
+}
+.jumbotron{
+	background-color: white;
+	margin-bottom: 3px;
+}
+
+a:link{
+	font: #007bff;
+}
+a:active{
+	font: 00008b;
+}
+a:visited{
+	color: purple;
+}
+.fontBold{
+	font-weight: 600
+}
+
+.peddind{
+	position: fixed;
+	padding: 0px;
+	margin-top: 8px;
+
+}
+div.topHeader{
+	margin-top: 25px;
+}
+
+div.topMain{
+	margin-top: 25px;
+}
+div.topFooterPesos{
+	margin-top: 370px;
+}
+div.topFooterExercicio{
+	margin-top: 25px;
+}
+div.style{
+	border: solid 1px black;
+}
+div.backGround{
+	background-color: rgba(211,211,211,0.3);
+}
+h2.textWhite{
+	color: white;
+}
+.buttonFacebook{
+	background-color: #3b5998
+}
+.buttonGoogle{
+	background-color: #BD4437
+}
+.imagemBotaoFacebook {
+	background-image:url("C:\Users\mathe\OneDriveFaculdade\OneDrive\Pictures\vetores\facebookLogo.png");
+}
+.imagemBotaoGoole {
+	background-image:url("caminho-da-imagem");
+}
+h6.direitos{
+	font-size: 11px;
+}
+.botaoExcluir{
+	background-image: url(<svg class="bi bi-x-circle" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+						<path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z"/>
+						<path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z"/>
+						</svg>); 
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Health Track Exercícios </title>
+		<meta charset="utf-8">
+  		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="description" content="Bootstrap">
+		<meta name="author" content="Matheus Brancalhão">
+		
+		<link rel="stylesheet" href="C:\Users\mathe\OneDriveFaculdade\OneDrive\Desktop\FIAP 2020\FASE 4\bootstrap-4.5.0-dist\css\bootstrap.min.css">
+
+		<link rel="stylesheet" href="C:\Users\mathe\OneDriveFaculdade\OneDrive\Desktop\FIAP 2020\FASE 4\Exercicio5\css\styleDefault.css">
+
+		<script src="C:\Users\mathe\OneDriveFaculdade\OneDrive\Desktop\FIAP 2020\FASE 4\bootstrap-4.5.0-dist\jquery-3.5.1.js"></script>
+		<script src="C:\Users\mathe\OneDriveFaculdade\OneDrive\Desktop\FIAP 2020\FASE 4\bootstrap-4.5.0-dist\js\bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			 
+			<div class="row topHeader navbar navbar-light" style="background-color: #e3f2fd;">  
+				<h1 class="col-3 text-left"> 
+					<svg class="bi bi-justify" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+</svg> </h1>
+				<h2 class="col-9 text-left font"> Lista de Exercícios </h2>
+			</div>
+		</header>
+		<main>
+			<br>
+			<div class="card-body bg-light mb-3" style="padding-top: 10px" >
+				<div class="row align-items-start topMain">
+				    <div class="col-6 text-center">
+				       <h3> Data </h3>
+				       <label for="Data"><input type="date" name="data"> </label>
+				    </div>
+				    <div class="col-6 text-center">
+				      <h3> Tipo </h3>
+				      <form id="FormExerc">
+	    					<select id="exercicios" name="exercicios">
+	    						<option> Aquecimento </option>
+	    						<option> Esteira </option>
+	    						<option> Barra </option>
+	    						<option> Levantamento de Peso</option>
+	    						<option> Flexão</option>
+	    						<option> Abdominais</option>
+	    					</select>
+	    				</form>
+				    </div> 
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-4 text-center">
+	    				<h3>Início </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    			<div class="col-4 text-center">
+	    				<h3> Fim </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    			<div class="col-4 text-center">
+	    				<h3> Duração </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    		</div>
+	    	</div>
+	   
+	    	<!-- -->
+	    	<div class="card-body bg-light mb-3" style="padding-top: 10px" >
+				<div class="row align-items-start topMain">
+				    <div class="col-6 text-center">
+				       <h3> Data </h3>
+				       <label for="Data"><input type="date" name="data"> </label>
+				    </div>
+				    <div class="col-6 text-center">
+				      <h3> Tipo </h3>
+				      <form id="FormExerc">
+	    					<select id="exercicios" name="exercicios">
+	    						<option> Aquecimento </option>
+	    						<option> Esteira </option>
+	    						<option> Barra </option>
+	    						<option> Levantamento de Peso</option>
+	    						<option> Flexão</option>
+	    						<option> Abdominais</option>
+	    					</select>
+	    				</form>
+				    </div> 
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-4 text-center">
+	    				<h3>Início </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    			<div class="col-4 text-center">
+	    				<h3> Fim </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    			<div class="col-4 text-center">
+	    				<h3> Duração </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<!-- -->
+	    	<div class="card-body bg-light mb-3" style="padding-top: 10px" >
+				<div class="row align-items-start topMain">
+				    <div class="col-6 text-center">
+				       <h3> Data </h3>
+				       <label for="Data"><input type="date" name="data"> </label>
+				    </div>
+				    <div class="col-6 text-center">
+				      <h3> Tipo </h3>
+				      <form id="FormExerc">
+	    					<select id="exercicios" name="exercicios">
+	    						<option> Aquecimento </option>
+	    						<option> Esteira </option>
+	    						<option> Barra </option>
+	    						<option> Levantamento de Peso</option>
+	    						<option> Flexão</option>
+	    						<option> Abdominais</option>
+	    					</select>
+	    				</form>
+				    </div> 
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-4 text-center">
+	    				<h3>Início </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    			<div class="col-4 text-center">
+	    				<h3> Fim </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    			<div class="col-4 text-center">
+	    				<h3> Duração </h3>
+	    				<input type="time" id="inicio" name="inicio"min="00:01" max="23:59" required>
+	    			</div>
+	    		</div>
+	    	</div>
+		</main>
+		<footer>
+		<div class="row topFooter  topFooterExercicio">
+			<div class="col-8 text-center">
+				<button type="button" class="btn btn-primary btn-block"> Inserir Exercício </button>
+			</div>
+			<div class="col-4 text-center"> 		
+				<a href="healthtrackPesoOficial.html"><button type="button" class="btn btn-secondary"> Pesos </button> </a>
+			</div>	
+		</div>
+		</footer>
+	</div>
+</body>
+</html>
+
+
